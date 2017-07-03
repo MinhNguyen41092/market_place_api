@@ -15,6 +15,7 @@ gem "coffee-rails", "~> 4.2"
 gem "jquery-rails"
 gem "active_model_serializers"
 gem "figaro"
+gem "devise"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 3.0"
 # Use ActiveModel has_secure_password
@@ -35,6 +36,7 @@ group :test do
   gem "rspec-rails"
   gem "factory_girl_rails"
   gem "ffaker"
+  gem "shoulda-matchers"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
